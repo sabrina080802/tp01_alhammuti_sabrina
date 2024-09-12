@@ -107,7 +107,7 @@
 
     <script>
       $(document).ready(function () {
-        $("#mainForm").validate({
+        $("#mainForm").on("submit", {
           rules: {
             nom: {
               required: true,
